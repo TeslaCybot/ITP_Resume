@@ -1,0 +1,56 @@
+body {
+    background-color: #f9f9f9;  /* Light background similar to Amazon's site */
+    color: #d4a12b;  /* Dark text color */
+    font-family: Arial, sans-serif;  /* Amazon uses a clean, sans-serif font like Arial */
+}
+
+header, footer {
+    background-color: #293b52;  /* Dark header/footer background similar to Amazon's navbar */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle box shadow for depth */
+}
+
+header img {
+    border-radius: 50%;  /* Circular image */
+    margin-bottom: 20px;
+    border: 2px solid #1f2833;  /* Border color matching header/footer background */
+}
+
+.section {
+    background-color: white;  /* White section background for a clean look */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;  /* Smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle box shadow for depth */
+}
+
+.section:hover {
+    transform: translateY(-10px);  /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Increased box shadow on hover */
+}
+
+.section h2 {
+    color: #FF9900;  /* Amazon's signature orange color for section headers */
+    border-bottom: 2px solid #FF9900;  /* Underline effect */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+}
